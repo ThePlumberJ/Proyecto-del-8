@@ -1,0 +1,12 @@
+body {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font: 1em Lucida Bright;
+
+}
+
+body {
+    background-image: linear-gradient(to bottom,
+            rgba(88, 88, 83, 0.5),
+            rgba(19, 19, 25, 0.729)), url(assents/Imagenes/Fondos/VistaPati)
+}

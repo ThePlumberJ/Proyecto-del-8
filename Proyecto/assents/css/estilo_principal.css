@@ -1,0 +1,43 @@
+body {
+    color: rgb(252, 252, 252);
+    font: 1em Lucida Bright;
+}
+
+body {
+
+    background-image: linear-gradient(to bottom,
+            rgba(88, 88, 83, 0.5),
+            rgba(19, 19, 25, 0.729)), url(Fondos/VistaPrincipal.jpg)
+}
+
+.parrafp1 {
+    font-size: 1.5rem;
+}
+
+#centrado {
+    text-align: center;
+}
+
+.info {
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.llevarV{
+    font: 1em Lucida Bright;
+    color: #000;
+    margin-top: 2%;
+}
+.infodespues{
+    margin-top: 2%;
+    margin-bottom: -2%;
+}
+fondo {
+    background-image: linear-gradient(to bottom,
+    rgba(88, 88, 83, 0.5),
+    rgba(19, 19, 25, 0.729)), url(Imagenes/chavoenbarril.png);
+    
+}
+.botonir{
+    margin-top: -6%;
+    margin-left: 73%;
+}

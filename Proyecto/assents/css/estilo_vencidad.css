@@ -1,0 +1,17 @@
+body {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font: 1em Lucida Bright;
+}
+
+body {
+    background-color: rgba(39, 38, 38, 0.938);
+}
+
+.parrafp1 {
+    font-size: 1.5rem;
+}
+
+#centrado {
+    text-align: center;
+}
