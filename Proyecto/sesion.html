@@ -1,0 +1,229 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="assents/css/estilo_sesion.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+    <title>Inicio Sesion</title>
+</head>
+
+<body>
+    <div class="botonr">
+        <a class="btn btn-danger" href="index.html" role="button"> <img
+                src="assents/Imagenes/Fondos/icons8-back-arrow-40.png" alt="">regresar</a>
+    </div>
+    <div class="col-md-7 offset-md-5 container">
+        <div class="info">
+            <div class="overlay ">
+                <!-- LOGN IN FORM by Omar Dsoky -->
+                <form>
+                    <!--   con = Container  for items in the form-->
+                    <div class="con">
+                        <!--     Start  header Content  -->
+                        <header class="head-form">
+
+                            <h2>
+                                Logeate
+                                <svg id="i-signin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32"
+                                    height="32" fill="none" stroke="currentcolor" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="2">
+                                    <path d="M3 16 L23 16 M15 8 L23 16 15 24 M21 4 L29 4 29 28 21 28" />
+                                </svg>
+                            </h2>
+                            <!--     A welcome message or an explanation of the login form -->
+                            <p>
+                                Para iniciar sesión usa tu Usuario <svg id="i-user" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 32 32" width="18" height="18" fill="none" stroke="currentcolor"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                    <path
+                                        d="M22 11 C22 16 19 20 16 20 13 20 10 16 10 11 10 6 12 3 16 3 20 3 22 6 22 11 Z M4 30 L28 30 C28 21 22 20 16 20 10 20 4 21 4 30 Z" />
+                                </svg>
+                                y Contraseña <svg id="i-lock" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                                    width="22" height="22" fill="none" stroke="currentcolor" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="2">
+                                    <path
+                                        d="M5 15 L5 30 27 30 27 15 Z M9 15 C9 9 9 5 16 5 23 5 23 9 23 15 M16 20 L16 23" />
+                                    <circle cx="16" cy="24" r="1" />
+                                </svg></p>
+                        </header>
+                        <!--     End  header Content  -->
+                        <br>
+                        <div class="field-set">
+
+                            <!--   user name -->
+                            <span class="input-item">
+                                <i class="fa fa-user-circle"></i>
+                            </span>
+                            <!--   user name Input-->
+                            <input class="form-input" id="txt-input" type="text" placeholder="@UserName" required>
+
+                            <br>
+
+                            <!--   Password -->
+
+                            <span class="input-item">
+                                <i class="fa fa-key"></i>
+                            </span>
+                            <!--   Password Input-->
+                            <input class="form-input" type="password" placeholder="Password" id="pwd" name="password"
+                                required>
+
+                            <!--      Show/hide password  -->
+                            <span>
+                                <i class="fa fa-eye" aria-hidden="true" type="button" id="eye"></i>
+                            </span>
+
+
+                            <br>
+                            <!--        buttons -->
+                            <!--      button LogIn -->
+                            <button class="badge text-bg-warning"> Iniciar Sesion </button>
+                        </div>
+
+                        <!--   other buttons -->
+                        <div class="other">
+                            <!--      Forgot Password button-->
+                            <button class="badge text-bg-danger">Olvide Mi Contraseña</button>
+                            <!--     Sign Up button -->
+                            <button class="badge rounded-pill text-bg-success">Registrarse
+                                <!--         Sign Up font icon -->
+                                <i class="fa fa-user-plus" aria-hidden="true"></i>
+                            </button>
+                            <!--      End Other the Division -->
+                        </div>
+
+                        <!--   End Conrainer  -->
+                    </div>
+
+                    <!-- End Form -->
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<footer> <!--Inicio de Pie de pagina-->
+
+    <div class="pie" style="margin-top: 15% ;"><!--Inicio del contendor del pie de pagina-->
+        <div class="card text-center" style="background-color: rgba(255, 255, 255, 0.356);">
+            <div class="card-header" style="color: rgba(0, 0, 0, 0.945);">
+                <h3>© LA WIKI DEL 8</h3>
+            </div>
+            <div class="card-body" style="background-color:rgba(155, 153, 153, 0.568);">
+                <div class="row col-md-8 offset-md-3"><!--Inicio Contendor de la informacion dentro del pie de pagina-->
+                    <table>
+                        <thead>
+                            <strong>
+                                <tr>
+                                    <th>
+                                        <nav aria-label="breadcrumb">
+                                            <ol class="breadcrumb">
+                                                <li class="breadcrumb-item active" style="color: #000;"
+                                                    aria-current="page">Contáctenos</li>
+                                            </ol>
+                                        </nav>
+                                    </th> <!--tag de negritas en los encabezados de las columnas-->
+                                    <th>
+                                        <nav aria-label="breadcrumb">
+                                            <ol class="breadcrumb">
+                                                <li class="breadcrumb-item active" style="color: #000;"
+                                                    aria-current="page">Redes Sociales</li>
+                                            </ol>
+                                        </nav>
+                                    </th>
+                                    <th>
+                                        <nav aria-label="breadcrumb">
+                                            <ol class="breadcrumb">
+                                                <li class="breadcrumb-item active" style="color: #000;"
+                                                    aria-current="page">Contáctenos</li>
+                                            </ol>
+                                        </nav>
+                                    </th>
+                                </tr>
+                            </strong>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a href="Blog.html" class="link-dark"><img
+                                            src="assents/Imagenes/Fondos/icons8-contact-40.png" alt="">Contacto</a>
+                                </td>
+
+                                <td>
+                                    <a href="https://www.facebook.com/ElChavodelOchoOficial/" class="link-dark"><img
+                                            src="assents/Imagenes/Fondos/icons8-facebook-50.png" alt="">Facebook</a>
+                                </td>
+                                <td>
+                                    <a href="#" class="link-dark"><img
+                                            src="assents/Imagenes/Fondos/icons8-terms-and-conditions-40.png" alt="">
+                                        Términos y Condiciones</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="Blog.html" class="link-dark">
+                                        <div style="margin-top: 2% ;"><img
+                                                src="assents/Imagenes/Fondos/icons8-drawing-compass-40.png"
+                                                alt="">Redacción</div>
+                                    </a>
+                                </td>
+                                <td> <a href="#" class="link-dark">
+                                        <div style="margin-top: 2% ;"><img
+                                                src="assents/Imagenes/Fondos/icons8-instagram-48.png" alt="">Instagram
+                                        </div>
+                                    </a></td>
+                                <td> <a href="#" class="link-dark">
+                                        <div style="margin-top: 2% ;"><img
+                                                src="assents/Imagenes/Fondos/icons8-privacy-policy-40.png"
+                                                alt="">Política de Privacidad</div>
+                                    </a></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="Blog.html" class="link-dark">
+                                        <div style="margin-top: 2% ;"><img
+                                                src="assents/Imagenes/Fondos/icons8-contact-40.png" alt="">Contacto
+                                            Comercial</div>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="https://twitter.com/" class="link-dark">
+                                        <div style="margin-top: 2% ;"> <img
+                                                src="assents/Imagenes/Fondos/icons8-twitter-50.png" alt="">Twitter
+                                        </div>
+                                    </a>
+                                </td>
+                            </tr> <!--tag de las filas-->
+                            <tr>
+                                <td> <a href="Blog.html" class="link-dark">
+                                        <div style="margin-top: 3% ;"><img
+                                                src="assents/Imagenes/Fondos/icons8-employ-40.png" alt="">Empleo</div>
+                                    </a></td>
+                            </tr> <!--tag de las filas-->
+                        </tbody>
+                    </table>
+                </div><!--Fin Contendor de la informacion dentro del pie de pagina-->
+                <img src="assents/Imagenes/Gifts/electyrocutado.gif" alt="">
+            </div>
+            <div>
+            </div>
+            <div class="card-footer text" style="color: #000;">
+                Todos Los Derechos Reservados © 2023 Fes Aragon
+            </div>
+        </div>
+    </div><!--Fin del contendor del pie de pagina-->
+
+</footer><!--Fin de pie de pagina-->
+
+</html>
